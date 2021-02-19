@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+}
+
+header {
+    width: 100%;
+    background-color: rgb(234, 117, 117);
+}
+
+h1 {
+    display: inline-block;
+    margin-left: 15px;
+    margin-top: 50px;
+
+}
+
+h3 {
+    display: inline-block;
+    margin: 25px;
+}
+
+.dotted-box {
+    width: 100%;
+    border: 4px black dotted;
+    margin: 8px;
+}
+
+h2 {
+    padding: 15px 0 0 15px;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0 15px 15px 15px;
+    margin-top: 0;
+}

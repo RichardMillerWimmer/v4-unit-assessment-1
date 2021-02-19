@@ -43,6 +43,7 @@ function addItem(item) {
 
 function removeItem(index) {
     groceries.splice(index, 1)
+    displayData()
 };
 
 //////////////////STEP 6////////////////////
