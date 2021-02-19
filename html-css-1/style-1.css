@@ -22,9 +22,9 @@ h3 {
 }
 
 .dotted-box {
-    width: 100vw;
+    width: 96vw;
     border: 4px black dotted;
-    margin: 8px;
+    margin: 18px;
     box-sizing: padding-box;
 }
 
@@ -32,13 +32,6 @@ h2 {
     padding: 15px;
     margin-top: 20px;
     margin-bottom: 0;
-}
-
-
-p {
-    font-family: 'Times New Roman', Times, serif;
-    padding: 5px;
-    margin-top: 0;
 }
 
 .html-logo {
@@ -51,4 +44,16 @@ p {
     width: 170px;
     height: 170px;
     float: right;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    text-align: left;
+    padding: 5px;
+    margin-top: 0;
+}
+
+.clear {
+    clear: both;
 }
