@@ -258,16 +258,17 @@ function giveMeDoubles(array, cb) {
   }
 */
 
-// function carFactory(make, model, year) {
-//   this.make = make;
-//   this.model = model;
-//   this.year = year;
-//   if (year >2018) {
-//     this.isNew: true
-//   } else {
-//     this.isNew: false
-//   }
-// };
+function carFactory(make, model, year) {
+  this.make = make
+  this.model = model
+  this.year = year
+  if (year >2018) {
+    this.isNew(true)
+  } else {
+    this.isNew(false)
+  }
+  return 
+};
 
 
 
