@@ -73,7 +73,29 @@ h3 {
     border: 2px black solid;
     margin-left: 5px;
     margin-bottom: 5px;   
+}
 
+.coal {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.eyes {
+    display: inline-block;
+    margin-top: 22px;
+    margin-left: 13px;
+}
+
+.carrot {
+    margin-left: 19px;
+    margin-top: -3px;
+}
+
+.buttons {
+    margin-top: 12px;
+    margin-left: 37px;
 }
 
 .relative {
@@ -130,9 +152,10 @@ h3 {
     left: 39px;
 }
 
-/* .coal {
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    background-color: black;
-} */
+.fish-tank {
+    font-size: 10px;
+    color: white;
+    position: absolute;
+    top: 70px;
+    left: 37px;
+}
